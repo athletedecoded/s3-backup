@@ -1,3 +1,5 @@
+![CI/CD Pipeline](https://github.com/athletedecoded/s3-backup/actions/workflows/deploy.yml/badge.svg)
+
 # IDS721 Spring 2023 Project 3 - Rust Serverless with AWS
 
 Automated serverless S3 backup using AWS Lambda x Rust  
