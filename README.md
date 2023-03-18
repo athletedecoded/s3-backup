@@ -12,6 +12,7 @@ Serverless S3 Backup using Lambda x Rust
 
 **Prequisites**
 1. S3 Buckets x 2 for input and output. Input bucket has access point.
+2. Lambda execution role 
 
 **Configure AWS IAM Role**
 
