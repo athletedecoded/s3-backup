@@ -23,5 +23,7 @@ jobs:
       run: make format
     - name: Lint
       run: make lint
+    - name: Install
+      run: make install
     - name: Binary Release
       run: make release
