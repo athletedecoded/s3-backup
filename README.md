@@ -68,7 +68,7 @@ $ make deploy
 1. From the AWS Lambda Console > Functions > s3-backup > Configuration > Permissions > change Execution role to preconfigured "S3xLambdaAccessRole"
 2. From the AWS Lambda Console > Functions > s3-backup > Configuration > Environment variables > set the following env variables coinciding with S3 Access Point ARNs: `SRC_AP_ARN`, `DEST_AP_ARN`, `RUBBISH_AP_ARN`
 
-*NB: Access Point ARNs will be of the format arn:aws:s3:<region>:<aws-id>:accesspoint/<access-point-name>*
+*NB: Access Point ARNs will be of the format arn:aws:s3:[region]:[aws-id]:accesspoint/[access-point-name]*
 
 ## References
 
